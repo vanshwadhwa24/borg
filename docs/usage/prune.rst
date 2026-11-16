@@ -11,6 +11,10 @@ restrict its operation to a subset of the archives using ``--glob-archives``.
 When using ``--glob-archives``, be careful to choose a good matching pattern —
 for example, do not use "foo*" if you do not also want to match "foobar".
 
+For placeholders such as ``{hostname}`` in archive matching patterns, see
+:ref:`borg_placeholders`. Use the same hostname expansion when creating archives
+and selecting them for pruning.
+
 It is strongly recommended to always run ``prune -v --list --dry-run ...``
 first, so you can see what it would do without actually doing anything.
 
