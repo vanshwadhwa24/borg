@@ -2,6 +2,9 @@
 
 Examples
 ~~~~~~~~
+
+For placeholders such as ``{hostname}`` in archive names, see
+:ref:`borg_placeholders`.
 ::
 
     # Backup ~/Documents into an archive named "my-documents"
